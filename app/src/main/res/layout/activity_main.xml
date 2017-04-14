@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blink.dagger.democache.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_girl"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+
+    <TextView
+        android:id="@+id/tv_commit"
+        android:layout_marginTop="25dp"
+        android:layout_width="120dp"
+        android:text="Click Get Picture !"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="35dp" />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/tv_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
